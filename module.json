@@ -1,7 +1,7 @@
 {
   "id": "vionheart-modern-content",
   "title": "Vionheart Content (Modern)",
-  "manifest": "https://raw.githubusercontent.com/XyrilP/vionheart-modern-content/main/module.json?token=GHSAT0AAAAAACUI25O4ZY4G5WJT4GZ6LLB6ZVST7CQ",
+  "manifest": "https://raw.githubusercontent.com/XyrilP/vionheart-modern-content/main/module.json",
   "download": "https://github.com/XyrilP/vionheart-modern-content/archive/refs/tags/Release.zip",
   "version": "1.1",
   "compatibility": {
