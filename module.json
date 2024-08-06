@@ -1,9 +1,9 @@
 {
   "id": "vionheart-modern-content",
-  "title": "Vionheart Modern Content",
+  "title": "Vionheart Content (Modern)",
   "manifest": "https://raw.githubusercontent.com/XyrilP/vionheart-modern-content/main/module.json?token=GHSAT0AAAAAACUI25O4ZY4G5WJT4GZ6LLB6ZVST7CQ",
   "download": "https://github.com/XyrilP/vionheart-modern-content/archive/refs/tags/Release.zip",
-  "version": "1.0",
+  "version": "1.1",
   "compatibility": {
     "minimum": "12",
     "verified": "12",
@@ -101,11 +101,11 @@
       "label": "Vionheart Modern Spells",
       "path": "packs/vionheart-modern-spells",
       "type": "Item",
+      "system": "pf2e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "pf2e"
+      }
     }
   ],
   "flags": {
@@ -160,41 +160,41 @@
         "creatureTraits": {},
         "featTraits": {},
         "spellTraits": {
-			"modern": {
-			"label": "Modern",
-			"description": "This is from the modern era."
-			},
-			"quickhack": {
-			"label": "Quickhack",
-			"description": "While the spell implies it interacts with technology, it is still magical and affects creatures without any Augments or Cyberware installed."
-			}
-		},
+          "modern": {
+            "label": "Modern",
+            "description": "This is from the modern era."
+          },
+          "quickhack": {
+            "label": "Quickhack",
+            "description": "While the spell implies it interacts with technology, it is still magical and affects creatures without any Augments or Cyberware installed."
+          }
+        },
         "weaponTraits": {
-			"modern": {
-				"label": "Modern",
-				"description": "This is from the modern era."
-			},
-			"automatic": {
-				"label": "Automatic",
-				"description": "This weapon can be used to take the Automatic action."
-			},
-			"burst-fire": {
-				"label": "Burst-Fire",
-				"description": "This weapon can be used to take the Burst-Fire action."
-			},
-			"marine": {
-				"label": "Marine",
-				"description": "This weapon can be used underwater without any penalty."
-			},
-			"fatal-d6": "Fatal d6",
-			"deadly-2d6": "Deadly 2d6",
-			"capacity-6": "Capacity 6"
-		},
+          "modern": {
+            "label": "Modern",
+            "description": "This is from the modern era."
+          },
+          "automatic": {
+            "label": "Automatic",
+            "description": "This weapon can be used to take the Automatic action."
+          },
+          "burst-fire": {
+            "label": "Burst-Fire",
+            "description": "This weapon can be used to take the Burst-Fire action."
+          },
+          "marine": {
+            "label": "Marine",
+            "description": "This weapon can be used underwater without any penalty."
+          },
+          "fatal-d6": "Fatal d6",
+          "deadly-2d6": "Deadly 2d6",
+          "capacity-6": "Capacity 6"
+        },
         "equipmentTraits": {
-			"modern": {
-				"label": "Modern",
-				"description": "This is from the modern era."
-			},
+          "modern": {
+            "label": "Modern",
+            "description": "This is from the modern era."
+          },
           "cyberware": {
             "label": "Cyberware",
             "description": "This item is installed into or onto the body, cybernetically enhancing the wearer.\nIt permanently replaces the bodypart with the item, removing the implant requires the installation of a Cyberlimb or an organ donor."
