@@ -1,0 +1,206 @@
+{
+  "id": "vionheart-modern-content",
+  "title": "Vionheart Modern Content",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12",
+    "maximum": "12"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "pf2e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ],
+    "recommends": [
+      {
+        "id": "vionheart-content",
+        "type": "module",
+        "compatibility": {}
+      }
+    ],
+    "requires": [
+      {
+        "id": "game-icons-net",
+        "type": "module",
+        "compatibility": {}
+      }
+    ]
+  },
+  "description": "Modern content for the Vionheart Campaign.",
+  "authors": [
+    {
+      "name": "Xyril P.",
+      "discord": "xyrilp.",
+      "flags": {}
+    }
+  ],
+  "packs": [
+    {
+      "name": "vionheart-modern-items",
+      "label": "Vionheart Modern Items",
+      "path": "packs/vionheart-modern-items",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "vionheart-modern-effects",
+      "label": "Vionheart Modern Effects",
+      "path": "packs/vionheart-modern-effects",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "vionheart-modern-monsters",
+      "label": "Vionheart Modern Monsters",
+      "path": "packs/vionheart-modern-monsters",
+      "type": "Actor",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "vionheart-modern-actions",
+      "label": "Vionheart Modern Actions",
+      "path": "packs/vionheart-modern-actions",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "vionheart-modern-feats",
+      "label": "Vionheart Modern Feats",
+      "path": "packs/vionheart-modern-feats",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "vionheart-modern-spells",
+      "label": "Vionheart Modern Spells",
+      "path": "packs/vionheart-modern-spells",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e"
+    }
+  ],
+  "flags": {
+    "vionheart-modern-content": {
+      "pf2e-homebrew": {
+        "skills": {
+          "additional": {}
+        },
+        "baseArmors": {
+          "steelcloth": "Steelcloth",
+          "street-armor": "Street Armor",
+          "security-armor": "Security Armor",
+          "armored-jacket": "Armored Jacket",
+          "combat-suit": "Combat Suit",
+          "combat-vest": "Combat Vest",
+          "shock-armor": "Shock Armor",
+          "heavy-tactical-suit": "Heavy Tactical Suit",
+          "plated-vest": "Plated Vest",
+          "armored-trench-coat": "Armored Trench Coat",
+          "battle-armor": "Battle Armor"
+        },
+        "baseWeapons": {
+          "assault-cannon": "Assault Cannon",
+          "assault-rifle": "Assault Rifle",
+          "auto-shotgun": "Auto Shotgun",
+          "combat-shotgun": "Combat Shotgun",
+          "dart-gun": "Dart Gun",
+          "double-barreled-shotgun": "Double-Barreled Shotgun",
+          "flamethrower": "Flamethrower",
+          "gatling-gun": "Gatling Gun",
+          "grenade-launcher": "Grenade Launcher",
+          "hunting-rifle": "Hunting Rifle",
+          "light-machine-gun": "Light Machine Gun",
+          "machine-pistol": "Machine Pistol",
+          "magnum": "Magnum",
+          "micro-smg": "Micro SMG",
+          "pistol": "pistol",
+          "pump-action-shotgun": "Pump-Action Shotgun",
+          "revolver": "Revolver",
+          "rocket-launcher": "Rocket Launcher",
+          "sawed-off-shotgun": "Sawed-Off Shotgun",
+          "sniper-rifle": "Sniper Rifle",
+          "spear-gun": "Spear Gun",
+          "submachine-gun": "Submachine Gun",
+          "thumper": "thumper",
+          "under-barrel-flamethrower": "Under-Barrel Flamethrower",
+          "under-barrel-shotgun": "Under-Barrel Shotgun",
+          "under-barrel-thumper": "Under-Barrel Thumper"
+        },
+        "languages": {},
+        "weaponGroups": {},
+        "creatureTraits": {},
+        "featTraits": {},
+        "spellTraits": {
+			"modern": {
+			"label": "Modern",
+			"description": "This is from the modern era."
+			},
+			"quickhack": {
+			"label": "Quickhack",
+			"description": "While the spell implies it interacts with technology, it is still magical and affects creatures without any Augments or Cyberware installed."
+			}
+		},
+        "weaponTraits": {
+			"modern": {
+				"label": "Modern",
+				"description": "This is from the modern era."
+			},
+			"fatal-d6": "Fatal d6"
+		},
+        "equipmentTraits": {
+			"modern": {
+				"label": "Modern",
+				"description": "This is from the modern era."
+			},
+          "cyberware": {
+            "label": "Cyberware",
+            "description": "This item is installed into or onto the body, cybernetically enhancing the wearer.\nIt permanently replaces the bodypart with the item, removing the implant requires the installation of a Cyberlimb or an organ donor."
+          },
+          "augment": {
+            "label": "Augment",
+            "description": "This item functions similarly to a Cyberware except that its effects are minor and does not completely replace a bodypart or organ."
+          },
+          "tier-1": "Tier 1",
+          "tier-2": "Tier 2",
+          "tier-3": "Tier 3",
+          "tier-4": "Tier 4",
+          "datajack": {
+            "label": "Datajack",
+            "description": "This item requires a Datajack to be installed."
+          },
+          "software": {
+            "label": "Software",
+            "description": "This item is not physical, instead, it is installed onto a gadget or on your system if you have a datajack."
+          }
+        }
+      }
+    }
+  }
+}
