@@ -172,7 +172,21 @@
 				"label": "Modern",
 				"description": "This is from the modern era."
 			},
-			"fatal-d6": "Fatal d6"
+			"automatic": {
+				"label": "Automatic",
+				"description": "This weapon can be used to take the Automatic action."
+			},
+			"burst-fire": {
+				"label": "Burst-Fire",
+				"description": "This weapon can be used to take the Burst-Fire action."
+			},
+			"marine": {
+				"label": "Marine",
+				"description": "This weapon can be used underwater without any penalty."
+			},
+			"fatal-d6": "Fatal d6",
+			"deadly-2d6": "Deadly 2d6",
+			"capacity-6": "Capacity 6"
 		},
         "equipmentTraits": {
 			"modern": {
