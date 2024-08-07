@@ -3,7 +3,7 @@
   "title": "Vionheart Content (Modern)",
   "manifest": "https://raw.githubusercontent.com/XyrilP/vionheart-modern-content/main/module.json",
   "download": "https://github.com/XyrilP/vionheart-modern-content/archive/refs/tags/Release.zip",
-  "version": "1.1",
+  "version": "1.1.1",
   "compatibility": {
     "minimum": "12",
     "verified": "12",
@@ -19,20 +19,13 @@
     ],
     "recommends": [
       {
-        "id": "vionheart-content",
-        "type": "module",
-        "compatibility": {}
-      }
-    ],
-    "requires": [
-      {
         "id": "game-icons-net",
         "type": "module",
         "compatibility": {}
       }
     ]
   },
-  "description": "Modern content for the Vionheart Campaign.",
+  "description": "Fan-made Modern/Sci-Fi content for the Vionheart Campaign.",
   "authors": [
     {
       "name": "Xyril P.",
