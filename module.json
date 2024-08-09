@@ -3,7 +3,7 @@
   "title": "Vionheart Content (Modern)",
   "manifest": "https://raw.githubusercontent.com/XyrilP/vionheart-modern-content/main/module.json",
   "download": "https://github.com/XyrilP/vionheart-modern-content/archive/refs/heads/main.zip",
-  "version": "6.3.1.5",
+  "version": "6.3.1.6",
   "compatibility": {
     "minimum": "12",
     "verified": "12",
@@ -155,7 +155,7 @@
         "spellTraits": {
           "modern": {
             "label": "Modern",
-            "description": "This is from the modern era."
+            "description": "This spell is from the modern era."
           },
           "quickhack": {
             "label": "Quickhack",
@@ -165,7 +165,7 @@
         "weaponTraits": {
           "modern": {
             "label": "Modern",
-            "description": "This is from the modern era."
+            "description": "This weapon is from the modern era."
           },
           "automatic": {
             "label": "Automatic",
@@ -186,7 +186,7 @@
         "equipmentTraits": {
           "modern": {
             "label": "Modern",
-            "description": "This is from the modern era."
+            "description": "This item from the modern era."
           },
           "cyberware": {
             "label": "Cyberware",
@@ -208,7 +208,14 @@
             "label": "Software",
             "description": "This item is not physical, instead, it is installed onto a gadget or on your system if you have a datajack."
           }
-        }
+        },
+		"baseShields": {
+			"ballistic-shield": "Ballistic Shield"
+		},
+		"shieldTraits": {
+			"label": "Modern",
+			"description": "This shield is from the modern era."
+		}
       }
     }
   }
