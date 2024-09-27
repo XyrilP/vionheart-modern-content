@@ -25,7 +25,7 @@
       }
     ]
   },
-  "description": "Fan-made Modern/Sci-Fi content for the Vionheart Campaign.",
+  "description": "Fan-made Sci-Fi content for the Vionheart Campaign.",
   "authors": [
     {
       "name": "Xyril P.",
@@ -36,69 +36,75 @@
   "packs": [
     {
       "name": "vionheart-modern-items",
-      "label": "Vionheart Modern Items",
+      "label": "Vionheart Sci-Fi Items",
       "path": "packs/vionheart-modern-items",
       "type": "Item",
       "system": "pf2e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "flags": {}
     },
     {
       "name": "vionheart-modern-effects",
-      "label": "Vionheart Modern Effects",
+      "label": "Vionheart Sci-Fi Effects",
       "path": "packs/vionheart-modern-effects",
       "type": "Item",
       "system": "pf2e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "flags": {}
     },
     {
       "name": "vionheart-modern-monsters",
-      "label": "Vionheart Modern Monsters",
+      "label": "Vionheart Sci-Fi Monsters",
       "path": "packs/vionheart-modern-monsters",
       "type": "Actor",
       "system": "pf2e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "flags": {}
     },
     {
       "name": "vionheart-modern-actions",
-      "label": "Vionheart Modern Actions",
+      "label": "Vionheart Sci-Fi Actions",
       "path": "packs/vionheart-modern-actions",
       "type": "Item",
       "system": "pf2e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "flags": {}
     },
     {
       "name": "vionheart-modern-feats",
-      "label": "Vionheart Modern Feats",
+      "label": "Vionheart Sci-Fi Feats",
       "path": "packs/vionheart-modern-feats",
       "type": "Item",
       "system": "pf2e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "flags": {}
     },
     {
       "name": "vionheart-modern-spells",
-      "label": "Vionheart Modern Spells",
+      "label": "Vionheart Sci-Fi Spells",
       "path": "packs/vionheart-modern-spells",
       "type": "Item",
       "system": "pf2e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "flags": {}
     }
   ],
   "flags": {
@@ -209,13 +215,13 @@
             "description": "This item is not physical, instead, it is installed onto a gadget or on your system if you have a datajack."
           }
         },
-		"baseShields": {
-			"ballistic-shield": "Ballistic Shield"
-		},
-		"shieldTraits": {
-			"label": "Modern",
-			"description": "This shield is from the modern era."
-		}
+        "baseShields": {
+          "ballistic-shield": "Ballistic Shield"
+        },
+        "shieldTraits": {
+          "label": "Modern",
+          "description": "This shield is from the modern era."
+        }
       }
     }
   }
