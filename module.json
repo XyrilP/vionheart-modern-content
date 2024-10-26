@@ -3,7 +3,7 @@
   "title": "Vionheart Content (Modern)",
   "manifest": "https://raw.githubusercontent.com/XyrilP/vionheart-modern-content/main/module.json",
   "download": "https://github.com/XyrilP/vionheart-modern-content/archive/refs/heads/main.zip",
-  "version": "7.2",
+  "version": "7.2.1",
   "compatibility": {
     "minimum": "12",
     "verified": "12",
@@ -107,6 +107,28 @@
       "flags": {}
     }
   ],
+        "packFolders": [
+        {
+            "name": "Vionheart Content",
+            "color": "#C864C8",
+            "sorting": "a",
+            "folders": [
+                {
+                    "name": "Sci-Fi",
+                    "sorting": "a",
+                    "color": "#3232C8",
+                    "packs": [
+						"vionheart-modern-items",
+						"vionheart-modern-effects",
+						"vionheart-modern-monsters",
+						"vionheart-modern-actions",
+						"vionheart-modern-feats",
+						"vionheart-modern-spells"
+                    ]
+                }
+            ]
+        }
+    ],
   "flags": {
     "vionheart-modern-content": {
       "pf2e-homebrew": {
