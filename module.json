@@ -3,7 +3,7 @@
   "title": "Vionheart Content (Modern)",
   "manifest": "https://raw.githubusercontent.com/XyrilP/vionheart-modern-content/main/module.json",
   "download": "https://github.com/XyrilP/vionheart-modern-content/archive/refs/heads/main.zip",
-  "version": "7.2.2",
+  "version": "8.0",
   "compatibility": {
     "minimum": "12",
     "verified": "12",
@@ -146,7 +146,11 @@
           "heavy-tactical-suit": "Heavy Tactical Suit",
           "plated-vest": "Plated Vest",
           "armored-trench-coat": "Armored Trench Coat",
-          "battle-armor": "Battle Armor"
+          "battle-armor": "Battle Armor",
+		  "evo-shield": "Evo Shield",
+		  "light-evo-armor": "Light Evo Armor",
+		  "medium-evo-armor": "Medium Evo Armor",
+		  "heavy-evo-armor": "Heavy Evo Armor"
         },
         "baseWeapons": {
           "assault-cannon": "Assault Cannon",
@@ -195,21 +199,17 @@
             "label": "Modern",
             "description": "This weapon is from the modern era."
           },
-          "automatic": {
-            "label": "Automatic",
-            "description": "This weapon can be used to take the Automatic action."
-          },
-          "burst-fire": {
-            "label": "Burst-Fire",
-            "description": "This weapon can be used to take the Burst-Fire action."
-          },
           "marine": {
             "label": "Marine",
             "description": "This weapon can be used underwater without any penalty."
           },
-          "fatal-d6": "Fatal d6",
+		  "deadly-2d4": "Deadly 2d4",
+		  "deadly-3d4": "Deadly 3d4",
+		  "deadly-4d4": "Deadly 4d4",
           "deadly-2d6": "Deadly 2d6",
-          "capacity-6": "Capacity 6"
+		  "capacity-6": "Capacity 6",
+          "fatal-d6": "Fatal d6",
+		  "volley-15": "Volley 15 ft."
         },
         "equipmentTraits": {
           "modern": {
