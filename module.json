@@ -3,9 +3,9 @@
   "title": "Vionheart Content (Modern)",
   "manifest": "https://raw.githubusercontent.com/XyrilP/vionheart-modern-content/main/module.json",
   "download": "https://github.com/XyrilP/vionheart-modern-content/archive/refs/heads/main.zip",
-  "version": "8.0",
+  "version": "9.0.0",
   "compatibility": {
-    "minimum": "12",
+    "minimum": "13",
     "verified": "13",
     "maximum": "13"
   },
@@ -166,6 +166,7 @@
           "pistol": "Pistol",
           "pump-action-shotgun": "Pump-Action Shotgun",
           "revolver": "Revolver",
+		  "big-bore-revolver": "Big-Bore Revolver",
           "rocket-launcher": "Rocket Launcher",
           "sawed-off-shotgun": "Sawed-Off Shotgun",
           "sniper-rifle": "Sniper Rifle",
