@@ -3,7 +3,7 @@
   "title": "Vionheart Content (Modern)",
   "manifest": "https://raw.githubusercontent.com/XyrilP/vionheart-modern-content/main/module.json",
   "download": "https://github.com/XyrilP/vionheart-modern-content/archive/refs/heads/main.zip",
-  "version": "9.0.1",
+  "version": "9.1",
   "compatibility": {
     "minimum": "13",
     "verified": "13",

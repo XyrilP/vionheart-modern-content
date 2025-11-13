@@ -1,6 +1,3 @@
-2025/11/10-12:05:53.511 2eec Recovering log #1765
-2025/11/10-12:05:53.512 2eec Level-0 table #1768: started
-2025/11/10-12:05:53.548 2eec Level-0 table #1768: 58949 bytes OK
-2025/11/10-12:05:53.639 2eec Delete type=0 #1765
-2025/11/10-12:05:53.639 2eec Delete type=3 #1763
-2025/11/10-12:39:10.852 1640 Moved #1768 to level-1 58949 bytes OK: files[ 0 1 1 0 0 0 0 ]
+2025/11/13-08:56:54.717 3a58 Recovering log #1795
+2025/11/13-08:56:54.793 3a58 Delete type=0 #1795
+2025/11/13-08:56:54.793 3a58 Delete type=3 #1794
