@@ -3,7 +3,7 @@
   "title": "Vionheart Content (Modern)",
   "manifest": "https://raw.githubusercontent.com/XyrilP/vionheart-modern-content/main/module.json",
   "download": "https://github.com/XyrilP/vionheart-modern-content/archive/refs/heads/main.zip",
-  "version": "9.1",
+  "version": "9.1.1",
   "compatibility": {
     "minimum": "13",
     "verified": "13",
@@ -208,6 +208,8 @@
           "deadly-4d4": "Deadly 4d4",
           "deadly-2d6": "Deadly 2d6",
           "capacity-6": "Capacity 6",
+		  "capacity-7": "Capacity 7",
+		  "capacity-8": "Capacity 8",
           "fatal-d6": "Fatal d6",
           "volley-15": "Volley 15 ft."
         },
